@@ -12,7 +12,7 @@
 }
 
 @font-face {
-    font-family: 'Arial MT';
+    font-family: 'Arial Bold MT';
     src: url('../fonts/Arial_Bold_MT/subset-Arial-BoldMT.eot');
     src: url('../fonts/Arial_Bold_MT/subset-Arial-BoldMT.eot?#iefix') format('embedded-opentype'),
         url('../fonts/Arial_Bold_MT/subset-Arial-BoldMT.woff2') format('woff2'),
@@ -24,7 +24,7 @@
 }
 
 @font-face {
-    font-family: 'Arial MT';
+    font-family: 'Arial Bold Italic MT';
     src: url('../fonts/Arial_Bold_Italic_MT/subset-Arial-BoldItalicMT.eot');
     src: url('../fonts/Arial_Bold_Italic_MT/subset-Arial-BoldItalicMT.eot?#iefix') format('embedded-opentype'),
         url('../fonts/Arial_Bold_Italic_MT/subset-Arial-BoldItalicMT.woff2') format('woff2'),
@@ -61,7 +61,7 @@ body {
 .header-logo-box {
     display: inline-block;
     vertical-align: top;
-    margin-right: 213px;
+    margin: 6px 200px 17px 0;
 }
 
 .header-logo {
@@ -78,4 +78,100 @@ body {
 }
 
 /* HEADER - Topbar - Nav */
+.header-nav-box {
+    display: inline-block;
+    vertical-align: top;  
+    margin: 45px 0 44px 0; 
+}
 
+.header-menu-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.header-menu-item {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.header-menu-item:last-child {
+    margin-right: 0;
+}
+
+.header-menu-link {
+    font-family: "Arial Bold MT";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 10px 10px;
+    transition: all 0.3s ease;
+}
+
+.header-menu-link:hover {
+    color: #2aacc8;
+    background-color: #fff;
+    border-top: 5px solid #2aacc8;
+    border-bottom: 5px solid #2aacc8;
+    border-left: 1px solid #e8ebf1;
+    border-right: 1px solid #e8ebf1;
+    border-radius: 2px;
+}
+
+.link-arrow {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 8px;
+    width: 7px;
+    height: 5px;
+    background-image: url(../img/arrow-down.png);
+    background-repeat: no-repeat;
+    background-size: 7px;
+    background-position: center;
+}
+
+/* HEADER - Topbar - Nav - Dropdowns */
+.header-dropdown-item {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 27px;
+    width: 200px;
+    background-color: #fff;
+    border-bottom: 5px solid #2aacc8;   
+    padding: 15px 6px;
+    border-left: 1px solid #e8ebf1;
+    border-right: 1px solid #e8ebf1;
+    border-radius: 2px;
+}
+
+.dropdown-content-link {
+    display: block;
+    font-family: "Arial MT";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 36px;
+    text-decoration: none;
+    color: #000000;
+    border-bottom: 1px solid #e7e7e7;
+    padding-top: 13px;
+    padding-left: 11px;
+    transition: all 0.3s ease;
+}
+
+.dropdown-content-link:last-child {
+    border-bottom: none;
+}
+
+.dropdown-content-link:hover {
+    color: #2aacc8;
+}
+
+.header-dropdown-item:hover .dropdown-content {
+    display: block;
+}
