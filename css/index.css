@@ -175,3 +175,8 @@ body {
 .header-dropdown-item:hover .dropdown-content {
     display: block;
 }
+
+/* HEADER - Banner */
+.header-banner {
+    background-color: #81e4ed;
+}
