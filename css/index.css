@@ -1,4 +1,3 @@
-/* font-family: 'Lato', sans-serif; */
 /* FONTS */
 @font-face {
     font-family: 'Arial MT';
@@ -35,3 +34,48 @@
     font-weight: bold;
     font-style: italic;
 }
+
+/* GENERAL SETTINGS */
+* {
+    box-sizing: border-box;
+}
+
+.content-frame {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+body {
+    margin: 0;
+}
+
+/* HEADER */
+.header {
+    background-color: #e8ebf1;
+    border: 1px solid #00000026;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.07);
+}
+
+/* HEADER - Topbar */
+/* HEADER - Topbar - Logo */
+.header-logo-box {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 213px;
+}
+
+.header-logo {
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 20px;
+    color: #000000;
+}
+
+.header-logo-lite {
+    font-weight: 400;
+    color: #2aacc8;
+}
+
+/* HEADER - Topbar - Nav */
+
