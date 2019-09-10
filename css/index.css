@@ -41,12 +41,29 @@
 }
 
 .content-frame {
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
 body {
     margin: 0;
+}
+
+/* For h2 Titles */
+.style-titles {
+    display: inline-block;
+    font-family: "Arial Bold MT";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: block;
 }
 
 /* HEADER */
@@ -250,6 +267,7 @@ body {
 .cards-box {
     padding: 60px 0 51px 0;
 }
+
 .cards-item {
     display: inline-block;
     margin-right: 39px;
@@ -259,6 +277,7 @@ body {
     margin-right: 0;
 }
 
+/* CARDS - Icons */
 .cards-icon-box {
     display: inline-block;
     vertical-align: middle;
@@ -273,16 +292,6 @@ body {
     margin-right: 19px;
 }
 
-.cards-title {
-    display: inline-block;
-    font-family: "Arial Bold MT";
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 20px;
-    text-transform: uppercase;
-    color: #000000;
-}
-
 .cards-icon-box-responsive {
     background-image: url(../img/ms-icon-design.png);
 }
@@ -294,6 +303,17 @@ body {
 .cards-icon-box-ready {
     background-image: url(../img/ms-icon-plane.png);
 }
+
+/* CARDS - Text Box */
+/* .cards-title {
+    display: inline-block;
+    font-family: "Arial Bold MT";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #000000;
+} */
 
 .cards-text {
     display: inline-block;
@@ -334,4 +354,103 @@ body {
 
 .cards-link:hover {
     color: #000000;
+}
+
+/* MAIN */
+/* MAIN - Latest Works */
+.works-box {
+    padding-top: 20px;
+    border-bottom: 1px solid #dfe1e5;
+}
+
+.works-title-box {
+    float: left;
+}
+
+.style-titles-with-icons::before {
+    content: '';
+    display: inline-block;
+    width: 14px;
+    height: 24px;
+    background-image: url(../img/lw-icon-cursor.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 14px;
+    margin-right: 25px;
+}
+
+.works-slider-box {
+    float: right;
+}
+
+.works-slider-box::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #81e4ed;
+    border-radius: 50%;
+    background-image: url(../img/lw-icon-arrow-left.png);
+    background-position: center;
+    background-size: 7px;
+    background-repeat: no-repeat;
+    margin-right: 11px;
+}
+
+.works-slider-box::after {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #81e4ed;
+    border-radius: 50%;
+    background-image: url(../img/lw-icon-arrow-right.png);
+    background-position: center;
+    background-size: 7px;
+    background-repeat: no-repeat;
+}
+
+.works-item-box {
+    margin-top: 20px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #dfe1e5;
+}
+
+.works-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 220px;
+    height: 160px;
+    position: relative;
+    margin-right: 40px;
+}
+
+.works-item:last-child {
+    margin-right: 0;
+}
+
+.works-item-dropdown-box {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    width: 220px;
+    height: 80px;
+    background-color: #2aacc8;
+    text-align: center;
+}
+
+.dropdown-link-box {
+    margin: 29px auto;
+}
+
+.dropdown-link-img {
+    margin-right: 35px;
+}
+
+.dropdown-link-img:last-child {
+    margin-right: 0;
+}
+
+.works-item:hover .works-item-dropdown-box {
+    display: block;
 }
