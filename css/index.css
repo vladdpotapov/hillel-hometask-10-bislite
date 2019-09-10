@@ -94,6 +94,14 @@ body {
     margin-right: 20px;
 }
 
+.header-menu-item:hover .header-menu-link {
+    color: #2aacc8;
+    background-color: #fff;
+    border-top: 5px solid #2aacc8;
+    border-left: 1px solid #e8ebf1;
+    border-right: 1px solid #e8ebf1;
+}
+
 .header-menu-item:last-child {
     margin-right: 0;
 }
@@ -231,4 +239,99 @@ body {
 
 .header-banner-circles:nth-child(3) {
     background: #ffffff;
+}
+
+/* CARDS */
+.cards {
+    background-color: #e8ebf1;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.07);
+}
+
+.cards-box {
+    padding: 60px 0 51px 0;
+}
+.cards-item {
+    display: inline-block;
+    margin-right: 39px;
+}
+
+.cards-item:last-child {
+    margin-right: 0;
+}
+
+.cards-icon-box {
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    background-color: #2aacc8;
+    border-radius: 50%;
+    background-image: url(../img/ms-icon-clean.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+    margin-right: 19px;
+}
+
+.cards-title {
+    display: inline-block;
+    font-family: "Arial Bold MT";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.cards-icon-box-responsive {
+    background-image: url(../img/ms-icon-design.png);
+}
+
+.cards-icon-box-fully {
+    background-image: url(../img/ms-icon-view.png);
+}
+
+.cards-icon-box-ready {
+    background-image: url(../img/ms-icon-plane.png);
+}
+
+.cards-text {
+    display: inline-block;
+    width: 216px;
+    color: #363636;
+    font-family: "Arial MT";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 19px;
+}
+
+.cards-link-box {
+    margin-top: 15px;
+}
+
+.cards-link-icon-box {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 9px;
+    height: 6px;
+    background-image: url(../img/ms-icon-arrow.png);
+    background-repeat: no-repeat;
+    background-size: 6px;
+    background-position: center;
+}
+
+.cards-link {
+    font-family: "Arial MT";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #2aacc8;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.cards-link:hover {
+    color: #000000;
 }
