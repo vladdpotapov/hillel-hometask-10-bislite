@@ -148,6 +148,7 @@ body {
     border-left: 1px solid #e8ebf1;
     border-right: 1px solid #e8ebf1;
     border-radius: 2px;
+    z-index: 1000;
 }
 
 .dropdown-content-link {
