@@ -179,4 +179,55 @@ body {
 /* HEADER - Banner */
 .header-banner {
     background-color: #81e4ed;
+    padding: 20px 0 14px 0;
+}   
+
+.header-banner-content {
+    background-color: #e05936; 
+    padding-bottom: 27px;
+}
+
+.header-banner-motto-box {
+    width: 294px;
+    display: inline-block;
+    margin: 62px 0 0 61px;
+}
+
+.header-banner-motto {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.header-banner-img-box {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.header-banner-cup {
+    position: relative;
+    left: 64px;
+}
+
+.header-banner-clouds {
+    width: 426px;
+}
+
+.header-banner-circles-box {
+    margin: 12px auto 0 auto;
+    text-align: center;
+}
+
+.header-banner-circles {
+    display: inline-block;
+    margin-right: 17px;
+    width: 14px;
+    height: 14px;
+    background-color: #626262;
+    border-radius: 50%;
+}
+
+.header-banner-circles:nth-child(3) {
+    background: #ffffff;
 }
