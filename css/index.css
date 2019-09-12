@@ -601,7 +601,7 @@ body {
 
 .footer-info-item-about {
     width: 233px;
-    margin-right: 68px;
+    margin-right: 66px;
 }
 
 .footer-info-item-explore {
@@ -610,13 +610,13 @@ body {
 }
 
 .footer-info-item-browse {
-    width: 104px;
-    margin-right: 66px;
+    width: 107px;
+    margin-right: 64px;
 }
 
 .footer-info-item-contact {
     width: 135px;
-    margin-right: 56px;
+    margin-right: 54px;
 }
 
 .footer-info-item-connect {
@@ -664,6 +664,17 @@ body {
 
 .footer-icon-item:last-child {
     margin-right: 0;
+}
+
+.footer-links {
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    transition: all 0.5s ease;
+}
+
+.footer-links:hover {
+    color: #2aacc8;
 }
 
 /* FOOTER - Copyright and Logo */
