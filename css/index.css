@@ -263,6 +263,7 @@ body {
 
 .cards-item {
     display: inline-block;
+    vertical-align: top;
     margin-right: 43px;
 }
 
